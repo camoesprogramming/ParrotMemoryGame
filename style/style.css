@@ -58,10 +58,22 @@ h1 {
 }
 
 
-.vira-front-face {
+.turn-front-face {
   transform: rotateY(-180deg);
 }
 
-.vira-back-face {
+.turn-back-face {
   transform: rotateY(0deg);
 }
+
+.turn-front-face-for-ever {
+  transform: rotateY(-180deg);
+}
+
+.turn-back-face-for-ever {
+  transform: rotateY(0deg);
+}
+
+.first-turned-card {}
+
+.second-turned-card {}
